@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:text="Jewerly Of Jeju"
+        android:id="@+id/title"
+        android:textSize="26dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignBottom="@+id/btnHistory" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="관심보기"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignBottom="@+id/title" />
+
+</RelativeLayout>

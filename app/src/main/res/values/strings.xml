@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">JewelryJeju</string>
+    <string name="action_settings">관심보기</string>
+
+    <string-array name="planets_array">
+        <item>여행</item>
+        <item>산</item>
+        <item>오름</item>
+        <item>바다</item>
+        <item>강</item>
+        <item>유적지</item>
+    </string-array>
 </resources>
